@@ -14,7 +14,7 @@ class Dog implements Serializable
 	 int y=123;
 }
 
-public class TranSerial 
+public class TranSerialization 
 {
 	
 	public static void main(String[] args) throws IOException, ClassNotFoundException 
