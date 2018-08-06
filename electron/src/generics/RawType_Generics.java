@@ -9,6 +9,7 @@ public class RawType_Generics<T>
 	
 	public void set(T t)
 	{
+		System.out.println("hello method");
 		//----------------
 		//----------------
 	}
@@ -16,7 +17,9 @@ public class RawType_Generics<T>
 	public static void main(String[] args)
 	{
 		RawType_Generics type = new RawType_Generics();
-
+							type.set(new String());
+		RawType_Generics<Integer> type1 = new RawType_Generics<Integer>();
+		//type1.set(new String());
 	}
 
 }
