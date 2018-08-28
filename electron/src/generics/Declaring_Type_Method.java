@@ -29,6 +29,42 @@ class MethodDeclaration
 		}
 		
 	}
+	/*
+	 * package generics;
+
+class Box<T>
+{
+	private T t;
+	
+	public void add(T t)
+	{
+		this.t=t;
+	}
+	public T get()
+	{
+		System.out.println(t);
+		return t;
+	}
+}
+public class GenericDemoo {
+
+	public static void main(String[] args) 
+	{
+		Box b = new Box();
+			b.add(new String("hello"));//----=----//---=---//->>method inference 
+			b.get();
+
+	}
+
+}
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Raw types show up in legacy code because lots of API classes (such as the Collections classes) were not generic prior to JDK 5.0. When using raw types, you essentially get pre-generics behavior — a Box gives you Objects. For backward compatibility, assigning a parameterized type to its raw type is allowed:
+
+Box<String> stringBox = new Box<>();
+Box rawBox = stringBox;
+	 */
 }
 public class Declaring_Type_Method 
 {

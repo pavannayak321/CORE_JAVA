@@ -5,6 +5,10 @@ import java.util.ArrayList;
 
 class Student1<T>
 {
+	Student1(T a)
+	{
+		
+	}
 	
 }
 /*
@@ -21,7 +25,7 @@ class ReturnType<Student>//---------Student s = new Student();----possible
 {
 	public   <X extends Number> String   ma(Student1<? extends Number>   string)////////IIMPIMPIMPIMMPIMPIMPIMPIMP//////
 	{
-		Student s;
+		//Student1<Integer> s = new Student1<>();
 		System.out.println("hello");
 		return "ewew";
 	}
