@@ -34,5 +34,8 @@ class Test{
 	 //frequency in collection 
 	 int n  = Collections.frequency(list,1);
 	 System.out.println("Frequency of occurance of list"+n);
+	 
+	 
+	 System.out.println(Collections.contain(1));
 	}
 }
